@@ -152,3 +152,16 @@ uv run server.py
 ````
 
 
+- For this example the following mcp server config is used to connect to a MCP host:
+
+{
+  "mcpServers": {
+    "shell": {
+      "command": "/Users/tevin/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/uv",
+      "args": ["--directory", "/Github/mcp-custom-server", "run", "server.py"]
+    }
+  }
+}
+
+
+- This is a great mcp server that will allow you to communicate with the server shell - It can be dangerous though
